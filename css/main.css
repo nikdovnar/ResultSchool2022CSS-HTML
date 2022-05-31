@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: #ddd;
+}
+
+.container {
+	width: 55%;
+	margin: 10px auto;
+}
+
+.about {
+	display: flex;
+	font-size: 20px;
+}
+.about img {
+	width: 250px;
+	border-radius: 10px;
+}
+.about__info {
+	width: 100%;
+	margin: 50px 0 0 50px;
+}
+.about__info h1 {
+	font-size: 30px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.about__info-links {
+	margin: 15px 0 10px 0;
+}
+.about__info-links a {
+	color: rgb(102, 12, 219);
+}
+.about__info-links P {
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+.about__info-links a:hover {
+	color: rgb(0, 74, 83);
+}
+@media (max-width:1230px) {
+	.about {
+		display: block;
+		text-align: center;
+	}
+	.about img {
+		width: 370px;
+	}
+	.about__info {
+		margin: 30px 0px;
+	}
+}
+
+
+
+.hobby {
+	margin-top: 10px;
+	background-color: inherit;
+	background-color: rgb(191, 207, 212);
+	padding: 10px 0px 0px 10px;
+	border-radius: 20px;
+}
+.hobby h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.hobby__info {
+	font-size: 18px;
+	padding: 15px 0px 20px 40px;
+}
+.hobby__info li {
+	list-style: square;
+}
+
+
+.jobs {
+	padding: 20px;
+	margin: 10px auto;
+	background-color: rgb(191, 207, 212);
+	border-radius: 20px;
+	padding: 10px 0px 10px 10px;
+}
+table {
+	width: 100%;
+}
+thead td {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+.form {
+	background-color: rgb(191, 207, 212);
+	border-radius: 20px;
+	padding: 10px 10px 10px 10px;
+}
+.form h2 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.form__row {
+	margin-bottom: 10px;
+}
+.form__group {
+	display: inline-block;
+	margin-right: 20px;
+	width: 45%;
+}
+.form__group {
+	margin-bottom: 10px;
+	color: rgb(107, 105, 105);
+}
+.form__group label {
+	margin-bottom: 10px;
+	display: block;
+}
+.form__group input,
+.form__message textarea {
+	width: 100%;
+	box-sizing: border-box;
+	background: transparent; /* Цвет фона прозрачный */
+	border-bottom: 1px solid rgb(5, 5, 5);
+	color: #000;
+	padding: 15px 0 15px;
+	outline: none;
+	font-family: inherit;
+}
+.form__message label {
+	color: rgb(107, 105, 105);
+}
+.form-btn {
+	margin-top: 5px;
+	text-align: center;
+}
+.btn {
+	width: 100px;
+	padding: 10px;
+	background-color: rgb(73, 115, 255);
+	color: white;
+	font-family: inherit;
+	border-radius: 30px;
+	transition: 0.1 ease-in;
+}
+.btn:hover {
+	background-color: rgb(47, 146, 212);
+}
+.btn:active {
+	background-color: rgb(8, 92, 187);
+}
+.btn:visited {
+	background-color: rgb(66, 29, 199);
+}
+@media (max-width:1230px) {
+	.form__group {
+		display: block;
+		width: 100%;
+	}
+}
+
+
